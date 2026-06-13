@@ -1,0 +1,16 @@
+# Python
+Mark-XXXIX/venv/
+Mark-XXXIX/__pycache__/
+Mark-XXXIX/*.pyc
+Mark-XXXIX/.env
+
+# Node.js
+IRIS-AI/node_modules/
+IRIS-AI/out/
+IRIS-AI/dist/
+IRIS-AI/.env
+
+# General
+.DS_Store
+Thumbs.db
+*.log
