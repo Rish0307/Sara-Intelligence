@@ -8,7 +8,7 @@ import {
   RiDragMove2Fill
 } from 'react-icons/ri'
 import { GiPowerButton } from 'react-icons/gi'
-import { irisService } from '@renderer/services/Iris-voice-ai'
+import { irisService } from '@renderer/services/Sara-voice-ai'
 import { VisionMode } from '@renderer/IndexRoot'
 
 interface OverlayProps {

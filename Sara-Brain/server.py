@@ -5,7 +5,7 @@ from agent.executor import AgentExecutor
 app = Flask(__name__)
 CORS(app) # Allow cross-origin requests from the Electron/Vite frontend
 
-# Initialize the Mark-XXXIX brain
+# Initialize the Sara-Brain brain
 executor = AgentExecutor()
 
 @app.route("/api/execute", methods=["POST"])
@@ -26,5 +26,5 @@ def execute_goal():
         return jsonify({"error": str(e), "status": "error"}), 500
 
 if __name__ == "__main__":
-    print("[SARA] Mark-XXXIX API Server running on port 5000")
+    print("[SARA] Sara-Brain API Server running on port 5000")
     app.run(host="127.0.0.1", port=5000, debug=False)

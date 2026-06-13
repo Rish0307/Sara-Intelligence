@@ -1,7 +1,7 @@
 import { handleNavigation, handleOpenMap } from '@renderer/tools/Earth-View'
 import { base64ToFloat32, downsampleTo16000, float32ToBase64PCM } from '../utils/audioUtils'
 import { getRunningApps } from './get-apps'
-import { getHistory, retrieveCoreMemory, saveCoreMemory, saveMessage } from './iris-ai-brain'
+import { getHistory, retrieveCoreMemory, saveCoreMemory, saveMessage } from './Sara-UI-brain'
 import { getAllApps, getSystemStatus } from './system-info'
 import { handleImageGeneration } from '@renderer/tools/Image-generator'
 import { fetchWeather } from '@renderer/tools/weather-api'
@@ -1208,7 +1208,7 @@ ${JSON.stringify(history)}
                 {
                   name: 'run_advanced_python_agent',
                   description:
-                    'ACTION: Delegates highly complex OS tasks, multi-step planning, screen OCR/Vision analysis, ghost coding/file scaffolding, and phantom keyboard typing to the Mark-XXXIX Python backend. Use this when asked to type into a specific app, build complex file structures, or read the screen natively.',
+                    'ACTION: Delegates highly complex OS tasks, multi-step planning, screen OCR/Vision analysis, ghost coding/file scaffolding, and phantom keyboard typing to the Sara-Brain Python backend. Use this when asked to type into a specific app, build complex file structures, or read the screen natively.',
                   parameters: {
                     type: 'OBJECT',
                     properties: {

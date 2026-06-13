@@ -1,14 +1,14 @@
 # Python
-Mark-XXXIX/venv/
-Mark-XXXIX/__pycache__/
-Mark-XXXIX/*.pyc
-Mark-XXXIX/.env
+Sara-Brain/venv/
+Sara-Brain/__pycache__/
+Sara-Brain/*.pyc
+Sara-Brain/.env
 
 # Node.js
-IRIS-AI/node_modules/
-IRIS-AI/out/
-IRIS-AI/dist/
-IRIS-AI/.env
+Sara-UI/node_modules/
+Sara-UI/out/
+Sara-UI/dist/
+Sara-UI/.env
 
 # General
 .DS_Store
